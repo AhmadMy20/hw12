@@ -1,4 +1,3 @@
-// utils.js
 export const calculateWinner = (squares) => {
   const lines = [
     [0, 1, 2],
@@ -19,7 +18,6 @@ export const calculateWinner = (squares) => {
   return null;
 };
 
-// utils.js
 export const calculateStatus = (winner, squares, nextValue, xIsNext) => {
   return winner
     ? `The winner game is : ${winner}`

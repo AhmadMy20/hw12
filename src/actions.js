@@ -1,4 +1,3 @@
-// actions.js
 export const SELECT_SQUARE = "SELECT_SQUARE";
 export const RESTART_GAME = "RESTART_GAME";
 

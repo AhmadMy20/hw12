@@ -1,4 +1,3 @@
-// reducers.js
 import { combineReducers } from "redux";
 import { SELECT_SQUARE, RESTART_GAME } from "./actions";
 import { calculateWinner } from "./utils"; // Adjust the path accordingly
