@@ -63,14 +63,14 @@ function Board() {
   return (
     <Center height='100vh' bg='gray.900'>
       <VStack spacing={8}>
-        <Heading mb={4} textAlign='center' color='white'>
-          Tic Tac Toe
+        <Heading mb={4} textAlign='center' color='green'>
+          Tic Tac coy
         </Heading>
         <Text mb={6} textAlign='center' fontSize='xl' color='whiteAlpha.800'>
           {status}
         </Text>
         <Flex direction='column' alignItems='center'>
-          <Box borderWidth='1px' p={4} borderRadius='md' bg='gray.700'>
+          <Box borderWidth='1px' p={4} borderRadius='md' bg='red.700'>
             <Flex direction='column'>
               <Flex>
                 <Box flex='1'>{renderSquare(0)}</Box>
@@ -95,9 +95,9 @@ function Board() {
             size='md'
             w='100%'
             borderRadius='full'
-            bg='blue.500'
+            bg='red.500'
             color='white'
-            _hover={{ bg: "blue.600" }}
+            _hover={{ bg: "red.600" }}
           >
             Restart Game
           </Button>
